@@ -25,7 +25,11 @@ header a {
   text-decoration: none;
 }
 
-/* nav */
+.logo a {
+    color: #b6895b;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
 /* main */
 main {
@@ -44,6 +48,31 @@ article h1 {
 
 article a {
   color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+article p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 10px;
 }
 
 /* Footer */
