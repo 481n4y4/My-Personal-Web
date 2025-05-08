@@ -26,9 +26,18 @@ header a {
 }
 
 .logo a {
-    color: #b6895b;
-    font-size: 1.3rem;
-    font-weight: 700;
+  color: #b6895b;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* main */
@@ -53,8 +62,8 @@ article a {
 }
 
 article p {
-    text-indent: 20px;
-    text-align: justify;
+  text-indent: 20px;
+  text-align: justify;
 }
 
 .sosmed {
@@ -65,14 +74,14 @@ article p {
 }
 
 .photo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .photo img {
-    width: 200px;
-    border-radius: 10px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 /* Footer */
